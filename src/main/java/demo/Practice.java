@@ -1,7 +1,5 @@
     package demo;
 
-    import javax.swing.*;
-
     public class Practice
     {
         public static void main(String[] args) {
