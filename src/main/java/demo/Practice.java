@@ -1,12 +1,23 @@
-package demo;
+    package demo;
 
-public class Practice
-{
-    public static void main(String[] args) {
+    import javax.swing.*;
 
-        int kk = 10;
+    public class Practice
+    {
+        public static void main(String[] args) {
+
+    Bmi result = new Bmi();
+
+    result.Weight= 57f;
+    result.Height= 1.7f;
+
+            System.out.println(result.bmi());
 
 
-        System.out.println("f");
+
+
+
+
+
+        }
     }
-}
